@@ -6,3 +6,8 @@ REPOSITORIO BOOTCAPM DATA SCIENCE GRUPO G6
 Clase 1 Data Science
 Clase 2 Git y Github
 Clase 3 Python
+
+### MODULO 2
+Clase 1 Data Science
+Clase 2 Git y Github
+Clase 3 Python
