@@ -4,7 +4,7 @@ class Alumno:
         self.email = email
         
     def mostrar(self):
-        print(f"Nombre: {self.nombreombre}")
+        print(f"Nombre: {self.nombre}")
         print(f"Email: {self.email}")
         
 class Profesor:
@@ -14,9 +14,9 @@ class Profesor:
         self.especialidad = especialidad
         
     def mostrar(self):
-        print(f"Nombre: {self.nombreombre}")
+        print(f"Nombre: {self.nombre}")
         print(f"Email: {self.email}")   
-        print(f" Especialidad: {self.especialidad}")
+        print(f"Especialidad: {self.especialidad}")
 
 alumno1 = Alumno("Juan Perez", "jperez@gmail.com")
 alumno1.mostrar()
