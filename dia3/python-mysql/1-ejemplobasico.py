@@ -12,10 +12,10 @@ connection = pymysql.connect(
 print(f'estas conectado a la base de datos {db_name}')
 
 #insertar datos en mi tabla
-alumno_cursor = connection.cursor()
-alumno_cursor.execute("insert into alumno(nro_documento,nombre) values('1002','Jesus Lopez')")
-connection.commit()
-print("alumno insertado")
+#alumno_cursor = connection.cursor()
+#alumno_cursor.execute("insert into alumno(nro_documento,nombre) values('1002','Jesus Lopez')")
+#connection.commit()
+#print("alumno insertado")
 
 alumno_cursor_select = connection.cursor()
 alumno_cursor_select.execute("select nro_documento,nombre from alumno")
