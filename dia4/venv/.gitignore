@@ -1,1 +1,2 @@
-TOKEN = 'f45560b3a105a3b39092357cb17faeffc0bfd33f046066942d4516fc98b99fab'
+venv/
+.env
