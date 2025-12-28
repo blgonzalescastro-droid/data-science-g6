@@ -28,14 +28,14 @@ if response.status_code == 200:
         host='localhost',
         user='root',
         password='root',
-        database='db_g6'
+        database='USE db_g6'
     )
     if connection.is_connected():
         cursor = connection.cursor()
         cursor.execute(
             """
-            CREATE TABLE IF NOT EXISTS usuario(
-            id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+            CREATE TABLE usuario(
+            id INT AUTO_INCREMENT PRIMARY KEY,
             nombre VARCHAR(255) NOT NULL,
             pais VARCHAR(255) NOT NULL,
             email VARCHAR(255),
@@ -44,6 +44,9 @@ if response.status_code == 200:
             );
             """
         )
+        
+        print("✅ Tabla usuario creada o ya existente")
+        
         #INSERTAMOS LOS USUARIOS A LA BD
         for usuario in rows:
             cursor.execute(
