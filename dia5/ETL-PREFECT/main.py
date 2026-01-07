@@ -7,7 +7,7 @@ from prefect import flow
 def main():
     data = extract()
     data_transform = transform(data)
-    load(data_trasnform)
+    load(data_transform)
     
 if __name__ == "__main__":
     main()

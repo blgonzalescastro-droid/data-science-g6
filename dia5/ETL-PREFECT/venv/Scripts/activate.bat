@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=F:\Documentos\BOOTCAMP DATA SCIENCE\G6\data-science-g6\dia5\venv"
+set "VIRTUAL_ENV=F:\Documentos\BOOTCAMP DATA SCIENCE\G6\data-science-g6\dia5\etl-prefect\venv"
 
 if not defined PROMPT set PROMPT=$P$G
 
