@@ -7,7 +7,7 @@ def load(data):
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='root2025',
+        password='root',
         database='db_g6'
     )
     cursor = conn.cursor()
