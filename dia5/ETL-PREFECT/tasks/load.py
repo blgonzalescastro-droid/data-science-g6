@@ -1,13 +1,13 @@
 from prefect import task
-import mysql.connector
+import pymysql
 
 @task
 def load(data):
     resultado = 0
-    conn = mysql.connector.connect(
+    conn = pymysql.connect(
         host='localhost',
         user='root',
-        password='root2025',
+        password='root',
         database='db_g6'
     )
     cursor = conn.cursor()

@@ -2,3 +2,4 @@ requests
 tabulate
 prefect
 mysql-connector-python
+pymysql
